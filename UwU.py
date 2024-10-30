@@ -55,7 +55,7 @@ Prefix: `.`
 💎 **Auto Use Gems every 15 minutes** 
 🏹 **Fast And Secure**
 
-**__Made with 💖 and 🧠 by ultimate__** 
+**__Made with 💖 and 🧠 by zesperishere** 
 """
     await ctx.send(ultimate_help)
 
@@ -66,7 +66,7 @@ async def auto_gems():
         channel = ultimate.get_channel(channel_id)
         if channel:
             await channel.send("idhar mera gems ka naam dalo bc")  
-        await made_by_ultimate.sleep(900)
+        await made_by_zesper.sleep(900)
 
 @ultimate.event
 async def on_command_error(ctx, error):
